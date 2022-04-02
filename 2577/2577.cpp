@@ -22,8 +22,11 @@ int main() {
 	}	
 }
 
+
+// 숫자형 Char와 Int의 전환
 // Int + '0' => Char
 // Char - '0' => Int (숫자형 Char인 경우에만 해당)
+
 
 // 또는 배열을 이용해 구현할 수도 있음(배열로 큐를 구현하는 경우와 유사)
 //#include <stdio.h>
