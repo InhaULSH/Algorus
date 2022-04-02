@@ -4,3 +4,4 @@
 <h4>아래 링크들은 2022-1학기에 학습한 알고리즘 문제들을 정리한 것입니다</h4>
 18108 : https://www.acmicpc.net/problem/18108 <br />
 2577 : https://www.acmicpc.net/problem/2577 <br />
+2442 : https://www.acmicpc.net/problem/2442<br />
