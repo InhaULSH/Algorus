@@ -24,3 +24,18 @@ int main() {
 
 // Int + '0' => Char
 // Char - '0' => Int (숫자형 Char인 경우에만 해당)
+
+// 또는 배열을 이용해 구현할 수도 있음(배열로 큐를 구현하는 경우와 유사)
+//#include <stdio.h>
+//
+// int main() {
+//		int Number1, Number2, Number3, Array[10];
+//		int Multiple = Number1 * Number2 * Number3;
+//		for (int i = 0; Multiple > 0; i++) {
+//			Array[Multiple % 10]++;
+//			Multiple /= 10;
+//		}
+//		for (int i = 0; i < 10; i++) {
+//			std::cout << Array[i] << std::endl;
+//		}
+//	}
