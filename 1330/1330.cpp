@@ -1,17 +1,16 @@
 ﻿#include <iostream>
 
 int main() {
-	int Num1;
-	int Num2;
-	std::cin >> Num1 >> Num2;
-
-	if (Num1 > Num2) {
-		std::cout << ">" << std::endl;
+	int Number1 = 0;
+	int Number2 = 0;
+	std::cin >> Number1 >> Number2;
+	if (Number1 > Number2) {
+		std::cout << ">";
 	}
-	else if (Num1 < Num2) {
-		std::cout << "<" << std::endl;
+	else if(Number1 < Number2) {
+		std::cout << "<";
 	}
 	else {
-		std::cout << "==" << std::endl;
+		std::cout << "==";
 	}
 }
