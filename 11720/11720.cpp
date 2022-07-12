@@ -7,7 +7,7 @@ int main() {
 	std::cin >> Number;
 	std::cin >> Numbers;
 	int Sum = 0;
-	for (int i = 0; i < Numbers.size(); i++) {
+	for (int i = 0; i < Number; i++) {
 		Sum += Numbers[i] - '0';
 	}
 	std::cout << Sum;
